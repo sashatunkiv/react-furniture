@@ -16,7 +16,7 @@ function Home() {
         <Link to="/react-furniture/favorite">
           <img width={28} src="/img/wishlist.png" />
         </Link>
-        <Link to='/card'>
+        <Link to='/react-furniture/card'>
           <div className="header-length">
             <img width={28} src="./img/cart.png" />
             <div className="length">{itemsLength}</div>
