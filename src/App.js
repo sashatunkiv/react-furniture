@@ -65,7 +65,7 @@ function App() {
       <div className="App">
         <Routes>
           <Route path="/react-furniture" element={<Home />} />
-          <Route path="/card" element={<Cart cartItems={cartItems} />} />
+          <Route path="/react-furniture/card" element={<Cart cartItems={cartItems} />} />
           <Route path="/favorite" element={<Wishlist />} />
         </Routes>
       </div>
