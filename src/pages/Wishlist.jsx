@@ -8,7 +8,7 @@ function Wishlist() {
   return (
     <div className='wishlist'>
       <div className="d-flex align-center justify-between">
-        <Link to="/">
+        <Link to="/react-furniture">
           <img className="cart-back" width={35} src="./img/left-arrow.png" />
         </Link>
         <h2>Wishlist</h2>
