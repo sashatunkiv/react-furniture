@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import AppContext from './context/context';
-import { Routes, Route } from 'react-router-dom';
+import { HashRouter, Route } from 'react-router-dom';
 import axios from 'axios';
 import './index.scss';
 import 'macro-css';
@@ -63,11 +63,11 @@ function App() {
         itemsLength,
       }}>
       <div className="App">
-        <Routes>
+        <HashRouter>
           <Route path="/react-furniture" element={<Home />} />
           <Route path="/react-furniture/card" element={<Cart cartItems={cartItems} />} />
           <Route path="/favorite" element={<Wishlist />} />
-        </Routes>
+        </HashRouter>
       </div>
     </AppContext.Provider>
   );
