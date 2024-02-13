@@ -63,9 +63,8 @@ function App() {
         itemsLength,
       }}>
       <div className="App">
-  <Home />
         <Routes>
-          // <Route path="/" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/card" element={<Cart cartItems={cartItems} />} />
           <Route path="/favorite" element={<Wishlist />} />
         </Routes>
