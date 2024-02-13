@@ -14,6 +14,7 @@ function Cart({ cartItems }) {
   };
   return (
     <div className="cart">
+      <h3>cart1</h3>
       <div className="d-flex align-center justify-between">
         <Link to="/react-furniture">
           <img className="cart-back" width={35} src="./img/left-arrow.png" />
