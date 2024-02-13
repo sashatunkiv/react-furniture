@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/react-furniture/static/css/main.4475602c.css",
-    "main.js": "/react-furniture/static/js/main.bde62395.js",
+    "main.js": "/react-furniture/static/js/main.faa10ca9.js",
     "index.html": "/react-furniture/index.html",
     "main.4475602c.css.map": "/react-furniture/static/css/main.4475602c.css.map",
-    "main.bde62395.js.map": "/react-furniture/static/js/main.bde62395.js.map"
+    "main.faa10ca9.js.map": "/react-furniture/static/js/main.faa10ca9.js.map"
   },
   "entrypoints": [
     "static/css/main.4475602c.css",
-    "static/js/main.bde62395.js"
+    "static/js/main.faa10ca9.js"
   ]
 }
