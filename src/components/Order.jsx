@@ -4,7 +4,7 @@ function Order({addOrder}) {
   return (
     <div className='order'>
       <div>Ваше замовлення прийняте в обробку</div>
-      <a href='/' >На головну</a>
+      <a href='/react-furniture' >На головну</a>
     </div>
   );
 }
