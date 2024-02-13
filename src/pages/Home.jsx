@@ -13,7 +13,7 @@ function Home() {
       <header className="header d-flex justify-between align-center">
         <h2>Furniture</h2>
 
-        <Link to="/favorite">
+        <Link to="/react-furniture/favorite">
           <img width={28} src="/img/wishlist.png" />
         </Link>
         <Link to='/card'>
